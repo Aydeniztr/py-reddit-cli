@@ -2,8 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import sys
 
-source = 'https://i.redd.it/651o45r5jr881.jpg'#'http://0x0.st/oHMS.jpg'
-
+source = sys.argv[1]
 
 
 def ascii_art_maker(link,color):
