@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 import sys
 
-source = 'https://i.redd.it/eux9fe9pla981.jpg'#'https://i.redd.it/zv1ntmrprse81.jpg'#'https://i.redd.it/4bdupat9qse81.jpg'#'https://i.redd.it/651o45r5jr881.jpg'#'http://0x0.st/oHMS.jpg'
+source = 'https://i.redd.it/eux9fe9pla981.jpg'
 
 
 
