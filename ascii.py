@@ -2,7 +2,8 @@ from bs4 import BeautifulSoup
 import requests
 import sys
 
-source = sys.argv[1]
+source = 'https://i.redd.it/eux9fe9pla981.jpg'#'https://i.redd.it/zv1ntmrprse81.jpg'#'https://i.redd.it/4bdupat9qse81.jpg'#'https://i.redd.it/651o45r5jr881.jpg'#'http://0x0.st/oHMS.jpg'
+
 
 
 def ascii_art_maker(link,color):
@@ -33,7 +34,7 @@ def ascii_art_maker(link,color):
 	stock_char_set = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 	char_set_1 = 'BS#&@$%*!:.'
 	
-	url = 'https://www.degraeve.com/img2txt-yay.php?url='+link+'&mode=A&size='+'100'+'&charstr='+char_set_1+'&order=O&invert=N'
+	url = 'https://www.degraeve.com/img2txt-yay.php?url='+link+'&mode=A&size='+'100'+'&charstr='+stock_char_set+'&order=O&invert=Y'
 
 	HTML = requests.get(url)
 
