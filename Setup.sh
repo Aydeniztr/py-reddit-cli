@@ -1,4 +1,4 @@
-echo '''
+printf '''
 \033m[31mreddit-cli\033[0m
 
  beautifulsoup4
@@ -20,5 +20,3 @@ then
 pip install beautifulsoup4
 pip install requests
 else
-fi
-fi
