@@ -355,7 +355,7 @@ def get_text():
 if len(sys.argv) <= 1:
 	
 	print(banner)
-	show_something('https://www.reddit.com/search.json?q=r/ecchi')
+	show_something('https://www.reddit.com/search.json?q=cats')
 
 else:
 
