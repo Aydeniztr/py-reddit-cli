@@ -1,24 +1,10 @@
-```
-
-```
-
-<img src=''>
 
 ## description
 ```
+reddit-cli
 
-```
-
-## installation
-
-```
-
-```
-
-## usage
-
-```
-
+You can get source links of every video,gifs or pictures and download them or view communities 
+in terminal with ascii thumbnails of attached pictures to save data and it looks cool .
 ```
 
   Github: https://github.com/Aydeniztr
