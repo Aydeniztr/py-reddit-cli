@@ -12,24 +12,26 @@ def ascii_art_maker(link,color):
 	
 	please select a color from this list:
 	
-	- \033[31mred    \033[0m
-	- \033[32mgreen  \033[0m
-	- \033[33myellow \033[0m
-	- \033[34mblue   \033[0m
-	- \033[35magenta \033[0m
-	- \033[36mcyan   \033[0m
-	- \033[0mreset   \033[0m
+	- \u001b[31mred    \u001b[0m
+	- \u001b[32mgreen  \u001b[0m
+	- \u001b[33myellow \u001b[0m
+	- \u001b[34mblue   \u001b[0m
+	- \u001b[35magenta \u001b[0m
+	- \u001b[36mcyan   \u001b[0m
+	- \u001b[0mreset   \u001b[0m
 	
 	'''
 	
 	
-	red     =  '\033[31m'
-	green   =  '\033[32m'
-	yellow  =  '\033[33m'
-	blue    =  '\033[34m'
-	magenta =  '\033[35m'
-	cyan    =  '\033[36m'
-	reset   =  '\033[0m'
+	black = '\u001b[30m'
+	red = '\u001b[31m'
+	green = '\u001b[32m'
+	yellow = '\u001b[33m'
+	blue = '\u001b[34m'
+	magenta = '\u001b[35m'
+	cyan = '\u001b[36m'
+	white = '\u001b[37m'
+	reset = '\u001b[0m'
 	
 	stock_char_set = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
 	char_set_1 = 'BS#&@$%*!:.'
