@@ -1,5 +1,5 @@
 from bs4 import BeautifulSoup
-import requests
+from urllib.requests import urlopen
 import sys
 
 source = 'https://i.redd.it/eux9fe9pla981.jpg'
@@ -36,9 +36,9 @@ def ascii_art_maker(link,color):
 	
 	url = 'https://www.degraeve.com/img2txt-yay.php?url='+link+'&mode=A&size='+'100'+'&charstr='+stock_char_set+'&order=O&invert=Y'
 
-	HTML = requests.get(url)
+	HTML = urlopen(url)
 
-	soup = BeautifulSoup (HTML. text, 'html.parser')
+	soup = BeautifulSoup (HTML.read(), 'html.parser')
 
 	art = soup.find('pre').text
 	
