@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 from urllib.requests import urlopen
 import sys
 
-source = 'https://i.redd.it/eux9fe9pla981.jpg'
+source = ''
 
 
 
